@@ -22,12 +22,11 @@ This repository contains the custom Python software for a prototype rehabilitati
 ## 🗂 Repository Structure
 
 ```
-📂 /scripts
- ├── A1_Determine_MVIC.py            # Record MVIC values for normalization
- ├── A2_Determine_CCI.py             # Record and compute CCI values (baseline)
- ├── A3_RealTime_Biofeedback.py      # Run real-time biofeedback system
- ├── B1_Verification.py              # Compute sensitivity/specificity of detection
- ├── B2_Validation.py                # Compare CCI with/without biofeedback + stats
+📄  A1_Determine_MVIC.py            # Record MVIC values for normalization
+📄  A2_Determine_CCI.py             # Record and compute CCI values (baseline)
+📄  A3_RealTime_Biofeedback.py      # Run real-time biofeedback system
+📄 B1_Verification.py              # Compute sensitivity/specificity of detection
+📄 B2_Validation.py                # Compare CCI with/without biofeedback + stats
 📂 /mvic                             # Saved MVIC data (per participant)
 📂 /cci measurements                 # Saved CCI data (per participant)
 📂 /EMG_Output_ptnrX                 # Raw EMG data per participant (CSV)
